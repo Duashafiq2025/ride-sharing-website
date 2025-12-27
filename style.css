@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     --theme-color: #75bf7a;
-    --light-text-color: #FFFFFF;
+    --light-text-color: #9E9DA2;
 }
 
 body {
@@ -44,7 +44,7 @@ a {
     padding-right: 8px;
     border-radius: 5.95px;
     background-color: var(--theme-color);
-    color: var(--light-text-color);
+    color: white;
     border: none;
     font-weight: 600px;
     font-size: 22px;
