@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 * {
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -94,7 +91,6 @@ a {
 
 .section1-buttons {
     display: flex;
-    /* justify-content: space-around; */
     gap: 30px;
 }
 
@@ -188,6 +184,8 @@ a {
     font-size: 46.39;
     display: flex;
     justify-content: center;
+    gap: 10px;
+
 }
 
 .steps {
@@ -258,24 +256,104 @@ a {
     font-size: 22px;
     font-weight: 800px;
 }
-.all-benefits{
-    border: 2px solid black;
-    margin-top: 52px;
-    margin-bottom: 52px;
+
+.all-benefits {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 150px;
     display: flex;
     flex-direction: column;
     gap: 56px;
 }
-.benefit{
-    border: 2px solid pink;
+
+
+.benefit {
+    border: none;
     width: 1060px;
     height: 304px;
-
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+
 
 }
-.right-benefit{
+
+.right-benefit {
     display: flex;
     align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.benefit span {
+    font-size: 88px;
+    color: var(--theme-color);
+}
+
+.benefit h4 {
+    font-size: 33.94px;
+    font-weight: 600px;
+    width: 260px;
+}
+
+.benefit p {
+    font-size: 22px;
+    width: 420px;
+    color: var(--light-text-color);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.end {
+    height: 553px;
+    background-color: #FFFFFF;
+}
+
+footer {
+    height: 309px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #ECECEC;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.contact-us h5 {
+    font-size: 22px;
+    color: #272042;
+}
+
+.contact-us a {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #8B8BA5;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.button-2 {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.end>p {
+    margin-top: 38px;
+    text-align: center;
+    color: var(--theme-color);
 }
